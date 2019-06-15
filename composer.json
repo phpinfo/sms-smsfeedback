@@ -1,0 +1,26 @@
+{
+    "name": "phpinfo/sms-smsfeedback",
+    "type": "library",
+    "description": "SmsFeedback integration with phpinfo/sms",
+    "keywords": [
+        "sms",
+        "smsfeedback"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alexey Gromov",
+            "homepage": "https://github.com/phpinfo"
+        }
+    ],
+    "require": {
+        "php": "^7.1",
+        "phpinfo/sms": "^1.0",
+        "phpinfo/smsfeedback": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Phpinfo\\Sms\\Smsfeedback\\": "src/"
+        }
+    }
+}
